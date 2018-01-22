@@ -6,7 +6,7 @@ import sys
 from itertools import groupby
 import argparse
 
-
+# create tuple from fasta file
 def fasta_gen(fasta_file):
     f_file = open(fasta_file)
     faiter = (x[1] for x in groupby(f_file, lambda line: line[0] == ">"))
@@ -15,6 +15,7 @@ def fasta_gen(fasta_file):
         seq = "".join(s.strip() for s in faiter.next())
         yield header, seq
 
+# generate mutations on seqs
 def main(fasta_file, mutation_freq):
     for header, seq in fasta_gen(fasta_file):
         seq = list(seq)
