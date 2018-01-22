@@ -9,8 +9,8 @@ Requires Python 2.7 and BioPython.
 
 Arguments:
 
-  -h, --help  show this help message and exit
+-h, --help  show this help message and exit
 
-  -i FASTA    Input FASTA file
+-i FASTA    Input FASTA file
 
-  -p PERC     Nucleotide diversity (%)
+-p PERC     Nucleotide diversity (in %)
