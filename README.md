@@ -8,6 +8,9 @@ Requires Python 2.7 and BioPython.
 > python mutate_seqs.py -i [in.fasta] -p [perc]
 
 Arguments:
+
   -h, --help  show this help message and exit
+
   -i FASTA    Input FASTA file
+
   -p PERC     Nucleotide diversity (%)
