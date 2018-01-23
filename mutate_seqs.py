@@ -30,7 +30,7 @@ def main(fasta_file, mutation_freq):
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description='Substitute bases at a certain percentage')
         parser.add_argument('-i', dest='fasta', help='Input FASTA file')
-	parser.add_argument('-p', dest='perc', help='Nucleotide diversity (%%)', type=int)
+	parser.add_argument('-p', dest='perc', help='Base substitutions (%%)', type=int)
         if len(sys.argv) == 1:
                 parser.print_help()
                 sys.exit()
