@@ -20,7 +20,7 @@ Options:
 -s  SPECIES; Number of species to select    
 -m  MAXSPECIES; Maximum number of species allowed per genera
 
-The taxonomy file should consist of two columns: first with the sequence identifier and the second with the full taxonomy lineage.
+The taxonomy file should consist of two columns: the first with the sequence identifier and the second with the full taxonomy lineage.
 
 e.g.
 ```
