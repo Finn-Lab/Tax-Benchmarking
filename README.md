@@ -12,7 +12,7 @@ Script for randomly selecting a set number of species from a taxonomy file.
 
 <b>Usage:</b>
 ```
-python random_select.py -i tax.file -s [number of species] -m [max species per genera]
+python random_select.py -i [tax.file] -s [number of species] -m [max species per genera]
 ```
 Options:  
 -h, --help; show this help message and exit  
