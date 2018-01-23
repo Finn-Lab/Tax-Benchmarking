@@ -1,3 +1,8 @@
+Taxonomy benchmarking scripts
+=============================
+
+Python scripts accompanying the manuscript Almeida, et al. on benchmarking taxonomy tools and databases.
+
 # random_species.py
 
 Python script for randomly selecting a set number of species from a taxonomy file.
