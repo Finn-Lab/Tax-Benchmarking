@@ -42,4 +42,4 @@ python mutate_seqs.py -i [in.fasta] -p [perc]
 Options:  
 -h, --help; show this help message and exit  
 -i FASTA; Input FASTA file  
--p PERC; Nucleotide diversity (in %)  
+-p PERC; Base substitutions (in %)  
