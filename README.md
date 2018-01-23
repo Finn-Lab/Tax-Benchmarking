@@ -11,9 +11,9 @@ Python scripts accompanying the manuscript Almeida, et al. on benchmarking taxon
 Script for randomly selecting a set number of species from a taxonomy file.
 
 <b>Usage:</b>
-
-> python random_select.py -i tax.file -s [number of species] -m [max species per genera]
-
+```
+python random_select.py -i tax.file -s [number of species] -m [max species per genera]
+```
 Options:  
 -h, --help; show this help message and exit  
 -i  TAX; Input taxonomy file (see below for example)  
@@ -36,8 +36,9 @@ ADCW01000016.45.1587	sk__Bacteria;k__;p__Firmicutes;c__Negativicutes;o__Veillone
 Script for generating simulated sequence data with a certain percentage of nucleotide substitutions. 
 
 <b>Usage:</b>
-> python mutate_seqs.py -i [in.fasta] -p [perc]
-
+```
+python mutate_seqs.py -i [in.fasta] -p [perc]
+```
 Options:  
 -h, --help; show this help message and exit  
 -i FASTA; Input FASTA file  
