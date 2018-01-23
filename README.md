@@ -1,4 +1,4 @@
-Taxonomy benchmarking scripts
+Taxonomy benchmarking project
 =============================
 
 Python scripts accompanying the manuscript Almeida, et al. on benchmarking taxonomy tools and databases.
