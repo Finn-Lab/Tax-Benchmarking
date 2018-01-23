@@ -4,12 +4,11 @@ Taxonomy benchmarking scripts
 Python scripts accompanying the manuscript Almeida, et al. on benchmarking taxonomy tools and databases.
 
 * Python 2.7
+* BioPython
 
 ## random_species.py
 
-Python script for randomly selecting a set number of species from a taxonomy file.
-
-Requires Python 2.7
+Script for randomly selecting a set number of species from a taxonomy file.
 
 <b>Usage:</b>
 
@@ -34,9 +33,7 @@ ADCW01000016.45.1587	sk__Bacteria;k__;p__Firmicutes;c__Negativicutes;o__Veillone
 
 ## mutate_seqs.py
 
-Python script for generating simulated sequence data with a certain percentage of nucleotide substitutions. 
-
-Requires Python 2.7 and BioPython.
+Script for generating simulated sequence data with a certain percentage of nucleotide substitutions. 
 
 <b>Usage:</b>
 > python mutate_seqs.py -i [in.fasta] -p [perc]
