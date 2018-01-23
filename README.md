@@ -9,10 +9,10 @@ Requires Python 2.7
 > python random_select.py -i tax.file -s [number of species] -m [max species per genera]
 
 Options:  
--h, --help      show this help message and exit  
--i  TAX         Input taxonomy file (see below for example)  
--s  SPECIES     Number of species to select    
--m  MAXSPECIES  Maximum number of species allowed per genera  
+-h, --help          show this help message and exit  
+-i  TAX             Input taxonomy file (see below for example)  
+-s  SPECIES         Number of species to select    
+-m  MAXSPECIES      Maximum number of species allowed per genera  
 
 # mutate_seqs.py
 
