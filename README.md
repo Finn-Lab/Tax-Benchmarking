@@ -16,11 +16,11 @@ python random_select.py -i tax.file -s [number of species] -m [max species per g
 ```
 Options:  
 -h, --help; show this help message and exit  
--i  TAX; Input taxonomy file (see below for example)  
+-i  TAX; Input taxonomy file (see example below)  
 -s  SPECIES; Number of species to select    
 -m  MAXSPECIES; Maximum number of species allowed per genera
 
-The taxonomy file should consist of two columns: first with the sequence identification and the second with the full taxonomic lineage.
+The taxonomy file should consist of two columns: first with the sequence identification and the second with the full taxonomy lineage.
 
 e.g.
 ```
