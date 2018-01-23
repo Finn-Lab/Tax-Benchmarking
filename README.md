@@ -1,7 +1,7 @@
 Taxonomy benchmarking project
 =============================
 
-Python scripts accompanying the manuscript Almeida, et al. on benchmarking taxonomy tools and databases.
+Python scripts accompanying the manuscript on benchmarking taxonomy tools and databases.
 
 * Python 2.7
 * BioPython
