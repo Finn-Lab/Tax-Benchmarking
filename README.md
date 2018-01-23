@@ -3,7 +3,7 @@ Taxonomy benchmarking scripts
 
 Python scripts accompanying the manuscript Almeida, et al. on benchmarking taxonomy tools and databases.
 
-# random_species.py
+## random_species.py
 
 Python script for randomly selecting a set number of species from a taxonomy file.
 
@@ -30,7 +30,7 @@ KM360064.1.1408	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidale
 JUZZ01000099.289.1808	sk__Bacteria;k__;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus;s__Haemophilus_parainfluenzae
 ADCW01000016.45.1587	sk__Bacteria;k__;p__Firmicutes;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Veillonella;s__Veillonella_sp._6_1_27
 
-# mutate_seqs.py
+## mutate_seqs.py
 
 Python script for generating simulated sequence data with a certain percentage of nucleotide substitutions. 
 
