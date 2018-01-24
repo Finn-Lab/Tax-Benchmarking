@@ -1,5 +1,5 @@
-Taxonomy benchmarking project
-=============================
+Benchmarking taxonomic assignment pipelines
+===========================================
 
 Scripts accompanying manuscript on benchmarking taxonomy tools and databases.
 
