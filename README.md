@@ -47,7 +47,7 @@ Options:
 -i FASTA; Input FASTA file  
 -p PERC; Base substitutions (in %)
 
-## R scripts
+## R_scripts /
 
 * plot_ds.R : calculate dissimilarity scores and plot heatmap
 * plot_f-score.R : calculate recall, precision and F-scores and plot scatterplot
