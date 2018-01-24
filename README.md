@@ -1,7 +1,7 @@
 Benchmarking taxonomic assignment pipelines
 ===========================================
 
-Scripts accompanying manuscript on benchmarking taxonomy tools and databases.
+Scripts accompanying manuscript on benchmarking taxonomy analysis tools and databases.
 
 <b>Requirements:</b>
 * Python 2.7
