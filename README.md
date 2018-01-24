@@ -6,7 +6,7 @@ Scripts accompanying manuscript on benchmarking taxonomy tools and databases.
 <b>Requirements:</b>
 * Python 2.7
 * BioPython
-* R version 3.4.1
+* R 3.4.1
 * R libraries: ggplot2, phyloseq, vegan, scales, grid, ape, RColorBrewer, data.table 
 
 ## random_species.py
