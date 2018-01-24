@@ -48,7 +48,8 @@ Options:
 
 ## R scripts
 
-* plot_ds
-* plot_usage
-* plot_stack
-* plot_f-score
+* plot_ds.R : calculate dissimilarity scores and plot heatmap
+* plot_f-score.R : calculate, recall, precision and F-scores and plot scatterplot
+* plot_pcoa.R : plot principal coordinates analysis (PCoA)
+* plot_stack.R : plot stacked histogram with predicted genera
+* plot_usage.R : plot bargraph with computational cost
