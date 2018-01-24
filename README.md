@@ -3,6 +3,7 @@ Taxonomy benchmarking project
 
 Scripts accompanying our manuscript on benchmarking taxonomy tools and databases.
 
+Requirements:
 * Python 2.7
 * BioPython
 * R version 3.4.1
