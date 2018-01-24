@@ -60,7 +60,7 @@ otus_select = names(which(taxa_sums(potus_exp)>0))
 otus_pruned = prune_taxa(otus_select, potus_tsmerge)
 recall = rowSums(otu_table(otus_pruned) != 0) # count how many taxa were recovered
 
-# plot histogram (just grouped by taxa or status)
+# plot stacked barplot
 dset = otus_pruned
 print(plot_bar(dset, fill=rank)
       + scale_fill_manual(rank, values = colorRampPalette(brewer.pal(8, "Set3"))(nrow(tax_table(dset))))
