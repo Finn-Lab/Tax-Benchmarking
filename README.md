@@ -1,10 +1,12 @@
 Taxonomy benchmarking project
 =============================
 
-Python scripts accompanying our manuscript on benchmarking taxonomy tools and databases.
+Scripts accompanying our manuscript on benchmarking taxonomy tools and databases.
 
 * Python 2.7
 * BioPython
+* R version 3.4.1
+* R libraries: ggplot2, phyloseq, vegan, scales, grid, ape, RColorBrewer, data.table 
 
 ## random_species.py
 
