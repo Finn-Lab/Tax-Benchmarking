@@ -10,7 +10,7 @@ Scripts accompanying our manuscript on benchmarking taxonomy tools and databases
 
 ## random_species.py
 
-Script for randomly selecting a set number of species from a taxonomy file.
+Python script for randomly selecting a set number of species from a taxonomy file.
 
 <b>Usage:</b>
 ```
@@ -35,7 +35,7 @@ ADCW01000016.45.1587	sk__Bacteria;k__;p__Firmicutes;c__Negativicutes;o__Veillone
 ```
 ## mutate_seqs.py
 
-Script for generating simulated sequence data with a certain percentage of nucleotide substitutions. 
+Python script for generating simulated sequence data with a certain percentage of nucleotide substitutions. 
 
 <b>Usage:</b>
 ```
@@ -49,7 +49,7 @@ Options:
 ## R scripts
 
 * plot_ds.R : calculate dissimilarity scores and plot heatmap
-* plot_f-score.R : calculate, recall, precision and F-scores and plot scatterplot
+* plot_f-score.R : calculate recall, precision and F-scores and plot scatterplot
 * plot_pcoa.R : plot principal coordinates analysis (PCoA)
 * plot_stack.R : plot stacked histogram with predicted genera
 * plot_usage.R : plot bargraph with computational cost
