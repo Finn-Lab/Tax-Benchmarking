@@ -67,7 +67,7 @@ df = data.frame(Recall, Precision, F.score)
 df$id = rownames(df)
 df.fi = melt(df, id="id")
 
-# plot
+# plot scatterplot
 print(ggplot(data=df.fi, aes(x=id, y=value, colour=variable, group=variable))
   + geom_point() 
   + theme_bw()
