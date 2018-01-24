@@ -44,4 +44,11 @@ python mutate_seqs.py -i [in.fasta] -p [perc]
 Options:  
 -h, --help; show this help message and exit  
 -i FASTA; Input FASTA file  
--p PERC; Base substitutions (in %)  
+-p PERC; Base substitutions (in %)
+
+## R scripts
+
+* plot_ds
+* plot_usage
+* plot_stack
+* plot_f-score
