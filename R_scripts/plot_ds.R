@@ -77,7 +77,7 @@ ds_phy = phyloseq(ds_otus, ds_tax)
 # plot heatmap with DS
 plot(plot_heatmap(ds_phy, taxa.label = "Genus", taxa.order=top_group, sample.order=rownames(ds_analy))
      + coord_flip()
-     + scale_fill_continuous(name = "DS", high = "#000033", low = "#81a5ca", na.value="grey",
+     + scale_fill_continuous(name = "DS", high = "#000033", low = "#FFFFFF", na.value="grey",
                             limits=c(0,3), breaks= c(0.0,1.0,2.0,3.0), labels=c("0.0", "1.0", "2.0", "3.0"))
      + theme(axis.text.y = element_text(face="plain", size=12, hjust = 1, vjust=0.5))
      + theme(axis.title.x = element_blank())
