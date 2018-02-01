@@ -63,9 +63,10 @@ sample_data(otus_tsmerge)$Database = factor(sample_data(otus_tsmerge)$Database, 
 # plot PCoA
 pcoa_dset = ordinate(otus_tsmerge, method="PCoA", distance="bray") # prepare distance matrix with PCoA or NMDS (default: bray)
 print(plot_ordination(otus_tsmerge, pcoa_dset, color = "Tool", shape = "Database") 
+      + scale_shape_manual(values=c(19,17,15,4,5))
       + theme_bw()
       + facet_wrap(~Patient, ncol=4)
       + geom_point(size=1)
-      + theme(legend.title = element_blank(), legend.position="bottom")
+      + theme(legend.title = element_blank(), legend.position="right")
       + theme(strip.background=element_rect(fill=NA, color=NA),
               strip.text=element_text(size=12)))
