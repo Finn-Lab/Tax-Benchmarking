@@ -1,7 +1,9 @@
 Benchmarking taxonomic assignment pipelines
 ===========================================
 
-Scripts for benchmarking taxonomic analysis tools and databases.
+Scripts for benchmarking taxonomic analysis tools and databases used in the following paper: 
+
+A Almeida, AL Mitchell, A Tarkowska, RD Finn (2018). [Benchmarking taxonomic assignments based on 16S rRNA gene profiling of the microbiota from commonly sampled environments](https://academic.oup.com/gigascience/article/7/5/giy054/4995265). <i>GigaScience</i>, Volume 7, Issue 5, 1 May 2018.
 
 <b>Requirements:</b>
 * Python 2.7
