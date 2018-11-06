@@ -19,11 +19,10 @@ Python script for randomly selecting a set number of species from a taxonomy fil
 ```
 python random_species.py -i [tax.file] -s [number of species] -m [max species per genera]
 ```
-Options:  
--h, --help; show this help message and exit  
--i  TAX; Input taxonomy file (see example below)  
--s  SPECIES; Number of species to select    
--m  MAXSPECIES; Maximum number of species allowed per genera
+Options:   
+`-i  TAX` Input taxonomy file (see example below)  
+`-s  SPECIES` Number of species to select    
+`-m  MAXSPECIES` Maximum number of species allowed per genera
 
 The taxonomy file should consist of two columns: the first with the sequence identifier and the second with the full taxonomy lineage.
 
@@ -44,15 +43,14 @@ Python script for generating simulated sequence data with a certain percentage o
 ```
 python mutate_seqs.py -i [in.fasta] -p [perc]
 ```
-Options:  
--h, --help; show this help message and exit  
--i FASTA; Input FASTA file  
--p PERC; Base substitutions (in %)
+Options:    
+`-i FASTA` Input FASTA file  
+`-p PERC` Base substitutions (in %)
 
 ## R_scripts /
 
-* plot_ds.R : calculate dissimilarity scores and plot heatmap
-* plot_f-score.R : calculate recall, precision and F-scores and plot scatterplot
-* plot_pcoa.R : plot principal coordinates analysis (PCoA)
-* plot_stack.R : plot stacked histogram with predicted genera
-* plot_usage.R : plot bargraph with computational cost
+* `plot_ds.R` : calculate dissimilarity scores and plot heatmap
+* `plot_f-score.R` : calculate recall, precision and F-scores and plot scatterplot
+* `plot_pcoa.R` : plot principal coordinates analysis (PCoA)
+* `plot_stack.R` : plot stacked histogram with predicted genera
+* `plot_usage.R` : plot bargraph with computational cost
